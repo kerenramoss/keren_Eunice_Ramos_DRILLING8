@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #EFEFEF;
+}
+
+#navegador{
+    background-color: #9517db;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo li{
+    margin: 2%;
+    list-style: none;
+}
+
+.logo li a{
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-weight: 900;
+    font-size: 400%;
+}
+
+.lista{
+display: none;
+width: 100%;
+justify-content: right;
+font-family: 'Dancing Script', cursive;
+}
+
+.lista li{
+    margin: 2%;
+    list-style: none;
+}
+
+.lista li a{
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+}
+
+.lista li a:hover{
+    
+    color: white;
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+#inicio{
+    display: flex;
+    justify-content: space-between;
+}
+
+#foto{
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+#foto div{
+    max-width: 200px;
+}
+#foto article{
+    width: 40%;
+}
+
+#foto img{
+    width: 75%;
+}
+
+.fondo{
+    width: 100%;
+}
+
+.inicio-info{
+    max-width: 150px;
+}
+
+.inicio-info h1,p{
+    font-size: 50%;
+    color: aliceblue;
+}
+
+#conocimientos-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#conocimientos-img img{
+    width: 100%;
+    max-width: 150px;
+    margin: 1%;
+    object-fit: contain;
+}
+
+.contenedor-titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3%;
+    color: #9517db;
+    font-family: 'Peralta', cursive;
+}
+
+@media screen and (min-width:600px) {
+
+    .lista{
+        display: flex;
+        }
+        #inicio{
+            display: flex;
+            justify-content: center;
+        }
+
+        #foto div{
+            max-width: 600px;
+        }
+        #foto article{
+            width: 95%;
+        }
+        
+        #foto img{
+            width: 80%;
+        }
+        
+        .inicio-info{
+            max-width: 400px;
+        }
+        
+        .inicio-info h1,p{
+            font-size: 150%;
+        }
+
+    
+}
