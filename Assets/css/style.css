@@ -69,15 +69,30 @@ font-family: 'Dancing Script', cursive;
     align-items: center;
 }
 
-#foto div{
+#foto div {
     max-width: 200px;
 }
+
 #foto article{
     width: 40%;
+   
 }
 
 #foto img{
     width: 75%;
+}
+
+.cv{
+    border: 1px solid white;
+    padding: 2% 3%;
+    color: #EFEFEF;
+    text-decoration: none;
+}
+
+.cv:hover{
+    border: 1px solid #9517db;
+    color: #9517db;
+    background-color: #EFEFEF;
 }
 
 .fondo{
@@ -91,6 +106,7 @@ font-family: 'Dancing Script', cursive;
 .inicio-info h1,p{
     font-size: 50%;
     color: aliceblue;
+    margin-bottom: 5%;
 }
 
 #conocimientos-img{
@@ -133,7 +149,7 @@ font-family: 'Dancing Script', cursive;
         }
         
         #foto img{
-            width: 80%;
+            width: 70%;
         }
         
         .inicio-info{
